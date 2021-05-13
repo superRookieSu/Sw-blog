@@ -1,38 +1,16 @@
-显示不？[^1]。
-
-[^1]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！
-
-
-
-1. 第一项
-    - 第一项
-
-
-`printf()`
-
-
-这是一个 [测试]
-
-[测试]: http://www.baidu.com
-
-![加载还是失败](1.jpg)
-<img src="1.jpg" alt="加载失败">
-<img src="http://git.oschina.net/isaced/jinground/raw/master/Screenshot.png" alt="加载失败2">
-
-
-|  名字   | 数量  |
-|  ----  | ----  |
-| 单元格  | 1 |
-| 单元格  | 2 |
-
-使用<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>重启电脑
-
-
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
-$$
+---
+home: true
+heroImage: /hero.png
+heroText: Hero 标题
+tagline: Hero 副标题
+actionText: 快速上手 →
+actionLink: /zh/guide/
+features:
+- title: 简洁至上
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+- title: Vue驱动
+  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+- title: 高性能
+  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+footer: MIT Licensed | Copyright © 2018-present Evan You
+---
