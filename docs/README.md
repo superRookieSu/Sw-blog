@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://github.com/superRookieSu/Sw-blog/blob/main/docs/1.jpg
+heroImage: .\assets\attr1.png
 heroText: Hello World!
 tagline: 杨帆起航
 actionText: 出发 →
