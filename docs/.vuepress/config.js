@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Hello VuePress',
+    title: 'Sw-blog',
     description: 'Just playing around',
     head:[
         ['link',{rel:'icon',herf:'/logo.jpg'}],
@@ -10,7 +10,17 @@ module.exports = {
     },
     themeConfig:{
         nav:[
-            {text:'前端基础',link:'https://www.baidu.com'}
+            {text:'前端基础',link:'./blog/test/test.md'},
+            {text:'前端应用',link:'https://www.baidu.com',target:'_blank'},
+            {text:'前端实战',link:'https://www.baidu.com',target:'_blank'},
+            {
+                text:'语言',
+                ariaLabel:'Language Menu',
+                items:[
+                    {text:'简体中文',link:'https://www.baidu.com',target:'_self'},
+                    {text:'英语',link:'http://google.com',target:'_self'}
+                ]
+            }
         ]
     },
     sidebar:'auto',// 侧边栏配置
@@ -19,18 +29,46 @@ module.exports = {
 }
 
 // module.exports = {
-//     theme: '@org/vuepress-theme-xxx', // 或者一个官方主题: '@vuepress/theme-xxx'
-//   }
-
-// module.exports = {
-//     markdown: {
-//       // markdown-it-anchor 的选项
-//       anchor: { permalink: false },
-//       // markdown-it-toc 的选项
-//       toc: { includeLevel: [1, 2] },
-//       extendMarkdown: md => {
-//         // 使用更多的 markdown-it 插件!
-//         md.use(require('markdown-it-xxx'))
-//       }
+//     title:'Sw-blog',
+//     themeConfig: {
+//         nav: [  // 导航栏配置
+//             // 单一link导航项=====================
+//             {
+//                 text: "Home",      
+//                 link: "/"                // 导航连接，'/'等价于'/README.md'
+//             },
+//             {
+//                 text: "Guide",       // 导航文本
+//                 link: "/guide/"       // 导航连接，'/guide/'等价于'/guide/README.md'
+//             },
+//             // 下拉列表导航项=====================
+//             {
+//                 text: "Contact",
+//                 ariaLabel: "Contact Menu",  // 别名
+//                 items: [ // 下拉列表
+//                     { text: "Vue", link: "https://cn.vuejs.org/v2/guide/" },
+//                     { text: "VuePress", link: "https://www.vuepress.cn/" }
+//                 ]
+//             },
+//             // 下拉列表分组, 每个组之间以横线隔开=====================
+//             {
+//                 text: "Category",    // 导航文本
+//                 items: [                   // 下拉列表
+//                     {
+//                         text: "Archives",       // 下拉列表分组文本
+//                         items: [                    // 分组列表（嵌套列表）
+//                             { text: "vue", link: "/blogs/vue/" },   // 分组内子项
+//                             { text: "vuepress", link: "/blogs/vuepress/" }
+//                         ]
+//                     },
+//                     {
+//                         text: "Guide",
+//                         items: [
+//                             { text: "introduce", link: "/guide/" }
+//                         ]
+//                     }
+//                 ]
+//             }
+//         ]
 //     }
-//   }
+// }

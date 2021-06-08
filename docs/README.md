@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: .\assets\attr1.png
+heroImage: .\assets\attr3.png
 heroText: Hello World!
-tagline: 杨帆起航
-actionText: 出发 →
+tagline: 第一次
+actionText: 去看看 →
 actionLink: /zh/guide/
 features:
 - title: 感受不一样
@@ -14,3 +14,8 @@ features:
   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行
 footer: Sw - blog
 ---
+::: tip
+这是一个提示
+:::
+
+:tada: :100:
