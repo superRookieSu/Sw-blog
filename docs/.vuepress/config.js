@@ -4,7 +4,7 @@ module.exports = {
     head:[
         ['link',{rel:'icon',herf:'/logo.jpg'}],
     ],
-    base:'/',// 部署到github的相关配置
+    base:'/Sw-blog/',// 部署到github的相关配置
     markdown:{
         lineNumbers:false // 代码块显示行号
     },
