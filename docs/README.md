@@ -1,17 +1,17 @@
 ---
 home: true
-heroImage: .\assets\attr3.png
-heroText: Hello World!
+heroImage: .\assets\title.png
+heroText: 望京彭于晏
 tagline: 第一次
 actionText: 去看看 →
 actionLink: /zh/guide/
 features:
-- title: 感受不一样
-  details: 这是船新的版本！不一样的
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行
+- title: 非一般的感受
+  details: 这是船新的版本！不一样的版本
+- title: 不断进步
+  details: 从此刻开始入门，不断学习，不断努力，不断进步
+- title: PC游戏爱好者
+  details: 玩的要尽兴，氪金除外
 footer: Sw - blog
 ---
 ::: tip
