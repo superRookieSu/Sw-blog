@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: .\assets\title.png
+heroImage: .\assets\icon.png
 heroText: 望京彭于晏
 tagline: 第一次
 actionText: 去看看 →
-actionLink: /zh/guide/
+actionLink: /blog/test/
 features:
 - title: 非一般的感受
   details: 这是船新的版本！不一样的版本

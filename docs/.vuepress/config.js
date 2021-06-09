@@ -2,7 +2,7 @@ module.exports = {
     title: 'Sw-blog',
     description: 'Just playing around',
     head:[
-        ['link',{rel:'icon',herf:'/logo.jpg'}],
+        ['link',{rel:'icon',herf:'/assets/title.png'}]
     ],
     base:'/Sw-blog/',// 部署到github的相关配置
     markdown:{
@@ -10,7 +10,7 @@ module.exports = {
     },
     themeConfig:{
         nav:[
-            {text:'前端基础',link:'./blog/test/test.md'},
+            {text:'前端基础',link:'./blog/test/'},
             {text:'前端应用',link:'https://www.baidu.com',target:'_blank'},
             {text:'前端实战',link:'https://www.baidu.com',target:'_blank'},
             {
