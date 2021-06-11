@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: .\assets\icon.png
-heroText: 望京彭于晏
+heroText: YXH懂锤子的VUE
 tagline: 第一次
 actionText: 去看看 →
 actionLink: /blog/test/

@@ -6,19 +6,19 @@ module.exports = {
     ],
     base:'/Sw-blog/',// 部署到github的相关配置
     markdown:{
-        lineNumbers:false // 代码块显示行号
+        lineNumbers:true // 代码块显示行号
     },
     themeConfig:{
         nav:[
-            {text:'前端基础',link:'./blog/test/'},
-            {text:'前端应用',link:'https://www.baidu.com',target:'_blank'},
+            {text:'前端基础',link:'/blog/test/',target:'_self'},
+            {text:'前端应用',link:'/blog/games/',target:'_self'},
             {text:'前端实战',link:'https://www.baidu.com',target:'_blank'},
             {
                 text:'语言',
                 ariaLabel:'Language Menu',
                 items:[
-                    {text:'简体中文',link:'https://www.baidu.com',target:'_self'},
-                    {text:'英语',link:'http://google.com',target:'_self'}
+                    {text:'简体中文',link:'/',target:'_self'},
+                    {text:'英语',link:'/blog/language/',target:'_self'}
                 ]
             }
         ]
